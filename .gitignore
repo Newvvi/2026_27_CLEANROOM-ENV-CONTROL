@@ -1,0 +1,22 @@
+# 🔑 비밀 정보
+.env
+*.key
+
+# 🐍 Python
+__pycache__/
+*.pyc
+venv/
+.venv/
+
+# 🎛 Arduino / PlatformIO 빌드
+build/
+.pio/
+
+# 📦 큰 미디어 (드라이브로)
+*.mp4
+*.mov
+
+# 💻 OS · 에디터
+.DS_Store
+Thumbs.db
+.vscode/
