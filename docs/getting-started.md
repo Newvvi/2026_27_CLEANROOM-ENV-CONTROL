@@ -36,3 +36,11 @@ flowchart LR
 
 - 🔑 비밀번호 · 와이파이 정보 (`.env`)
 - 📦 큰 영상 · 원본 데이터 → 📁 드라이브로
+
+## 🏷 라벨 · 마일스톤 (처음 한 번)
+
+[GitHub CLI](https://cli.github.com/) 설치 → `gh auth login` → 저장소 폴더에서
+
+```bash
+bash scripts/setup-github.sh
+```
