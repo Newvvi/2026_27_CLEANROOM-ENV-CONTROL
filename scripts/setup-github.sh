@@ -27,7 +27,7 @@ label "3차" "A9D18E" "본체 · 시연"
 # 마일스톤
 repo=$(gh repo view --json nameWithOwner -q .nameWithOwner)
 ms() { gh api "repos/$repo/milestones" -f title="$1" -f description="$2" ${3:+-f due_on="$3"} >/dev/null || echo "이미 있음: $1"; }
-ms "0차 전기" "전원 구조 · 전기 부품 · 배선" "2026-12-08T23:59:59Z"
+ms "0차 전기" "전원 구조 · 전기 부품 · 배선 · 부품 도착 후 12월 말" "2026-12-31T23:59:59Z"
 ms "1차 측정" "센서별 단독 측정 · 데이터 수집"
 ms "2차"      "차압 · 온습도 제어 · 통합"
 ms "3차"      "본체 제작 · 전체 통합 · 시연"
