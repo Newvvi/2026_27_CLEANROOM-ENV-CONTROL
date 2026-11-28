@@ -1,0 +1,18 @@
+# 👥 폴더별 담당 (11/26 결정 9 · 파트 기준)
+# 담당자가 리뷰어로 자동 지정돼요 · 초대를 수락해야 동작해요
+
+# 🧩 기본 · 통합·관제 · 전체 관리 (박지원)
+*                         @Newvvi
+
+# 🌬 공기·청정 (임건우)
+/firmware/test/pm-g7/     @ygw2357 @Newvvi
+/firmware/test/ppd42ns/   @ygw2357 @Newvvi
+/firmware/test/sdp810/    @ygw2357 @Newvvi
+/firmware/test/mq-135/    @ygw2357 @Newvvi
+/firmware/test/fan-pwm/   @ygw2357 @Newvvi
+
+# 🌡 온습도 (허남현) · GitHub 아이디 확인 후 추가
+# /firmware/test/dht11/    @허남현아이디
+# /firmware/test/ntc/      @허남현아이디
+# /firmware/test/peltier/  @허남현아이디
+# /firmware/test/bh1750/   @허남현아이디
